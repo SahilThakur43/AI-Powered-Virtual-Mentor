@@ -1,0 +1,218 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "invalid",
+     "patterns": ["aseweef", "wrtgertbehrtjyurt", "sdvsrdfgreth","adsvasdxzzxc","akkkdsx", "axaxscserg", "w","u"," ","45636346234435"],
+     "responses": ["Invalid input~\nPlease try again"],
+     "context": [""]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+        "responses": ["Goodbye! Take care of yourself.", "Bye! Remember, I'm here if you need me.", "See you later! Stay safe."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome! Feel free to ask if you need anything else.", "Glad I could help!", "No problem! Let me know if you need further assistance."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "mental_health_info",
+        "patterns": ["What is mental health?", "Can you explain mental health?", "Tell me about mental health"],
+        "responses": ["Mental health refers to emotional, psychological, and social well-being. It affects how we think, feel, and act.", "Mental health involves our emotional, psychological, and social well-being. It's important for overall health and quality of life.", "Mental health encompasses our emotional, psychological, and social well-being. It's crucial for living a fulfilling life."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "seeking_help",
+        "patterns": ["I need help", "Can you help me?", "I'm struggling"],
+        "responses": ["Of course! I'm here to listen and support you. What's on your mind?", "I'm here for you. Please feel free to share what's bothering you.", "You're not alone. Let's talk about what's troubling you."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "stress_management",
+        "patterns": ["How can I manage stress?", "Tips for stress management", "Ways to relieve stress"],
+        "responses": ["Some ways to manage stress include deep breathing exercises, meditation, regular exercise, and spending time on hobbies or activities you enjoy.", "To manage stress, try practicing mindfulness, getting regular exercise, maintaining a healthy diet, and getting enough sleep.", "You can manage stress by engaging in relaxation techniques like yoga, meditation, or taking a break to do something you love."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "self_care",
+        "patterns": ["What are some self-care practices?", "How can I practice self-care?", "Self-care tips"],
+        "responses": ["Self-care involves taking time for yourself to recharge and prioritize your well-being. Some practices include getting enough sleep, eating nutritious meals, exercising regularly, and setting boundaries.", "Self-care is important for mental and emotional well-being. Consider activities like journaling, spending time in nature, practicing gratitude, and engaging in hobbies you enjoy.", "Self-care is essential for maintaining balance and reducing stress. Try activities like taking a bath, reading a book, practicing mindfulness, or spending time with loved ones."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "therapy_options",
+        "patterns": ["What are my therapy options?", "Types of therapy available", "How can therapy help?"],
+        "responses": ["Therapy can help by providing a safe space to explore your thoughts and feelings, learn coping skills, and work towards personal growth. Some types of therapy include cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and mindfulness-based therapy.", "Therapy can be beneficial for addressing mental health concerns and improving overall well-being. Consider options like individual therapy, group therapy, or online therapy to find the right fit for you.", "Therapy offers a supportive environment to address challenges, develop insight, and enhance coping strategies. Explore options like psychotherapy, counseling, or behavioral therapy to find the best approach for your needs."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "encouragement",
+        "patterns": ["I'm feeling hopeless", "I'm struggling to cope", "I don't know what to do"],
+        "responses": ["It's okay to feel overwhelmed sometimes. Remember, you're not alone, and there are people who care about you.", "It's normal to face challenges, but it's important to reach out for support when you need it. You're stronger than you realize.", "You're capable of overcoming obstacles, even when it feels difficult. Take things one step at a time, and be kind to yourself along the way."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "mental_health_definition",
+        "patterns": ["What is the definition of mental health?", "Define mental health", "What does mental health encompass?"],
+        "responses": ["Mental health is a state of well-being in which an individual realizes their own abilities, can cope with the normal stresses of life, can work productively, and is able to make a contribution to their community.", "Mental health encompasses emotional, psychological, and social well-being. It affects how we think, feel, and act, influencing how we handle stress, relate to others, and make choices.", "The World Health Organization defines mental health as a state of well-being in which every individual realizes their potential, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to their community."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "therapy_benefits",
+        "patterns": ["What are the benefits of therapy?", "How can therapy help?", "Advantages of seeking therapy"],
+        "responses": ["Therapy can provide a safe and supportive environment to explore thoughts and feelings, gain insight into oneself, develop coping strategies, improve communication skills, and enhance overall well-being.", "Therapy offers the opportunity to address and manage mental health concerns, develop healthier patterns of thinking and behavior, strengthen relationships, and increase self-awareness and self-esteem.", "Seeking therapy can lead to improved emotional regulation, better stress management, enhanced problem-solving abilities, increased resilience, and a greater sense of fulfillment and satisfaction in life."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "mental_health_stigma",
+        "patterns": ["How can we reduce mental health stigma?", "Ways to combat mental health stigma", "Addressing stigma surrounding mental health"],
+        "responses": ["Reducing mental health stigma requires education, open dialogue, and promoting empathy and understanding. It involves challenging stereotypes, providing accurate information, and encouraging help-seeking behaviors.", "Combatting mental health stigma involves fostering a culture of acceptance, respect, and support. This includes promoting awareness, advocating for policy changes, and creating inclusive environments where individuals feel comfortable seeking help and sharing their experiences.", "Addressing mental health stigma requires community-wide efforts to promote acceptance, normalize conversations about mental health, and provide resources and support for individuals affected by mental illness."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "workplace_mental_health",
+        "patterns": ["How can workplaces support mental health?", "Strategies for promoting mental health in the workplace", "Creating a mentally healthy workplace"],
+        "responses": ["Workplaces can support mental health by fostering a culture of openness, promoting work-life balance, providing access to mental health resources and support services, offering training on stress management and mental health awareness, and addressing stigma surrounding mental illness.", "Promoting mental health in the workplace involves creating supportive policies and practices, providing opportunities for employees to engage in self-care activities, offering mental health education and training, and ensuring access to confidential counseling and support.", "Creating a mentally healthy workplace requires leadership commitment, employee involvement, and a comprehensive approach that addresses the physical, social, and psychological aspects of work."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "mental_health_awareness",
+        "patterns": ["How can I raise awareness about mental health?", "Promoting mental health awareness", "Engaging in mental health advocacy"],
+        "responses": ["Raising awareness about mental health involves educating others, sharing personal stories, participating in advocacy efforts, promoting mental health screenings and resources, and challenging stereotypes and misinformation.", "Promoting mental health awareness requires engaging in conversations about mental health, organizing events and activities to raise awareness, advocating for policy changes to improve access to mental health care, and supporting individuals affected by mental illness.", "Engaging in mental health advocacy involves speaking out about the importance of mental health, supporting initiatives to reduce stigma and discrimination, and working towards systemic changes to improve mental health care and support services."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "anxiety_definition",
+        "patterns": ["What is anxiety?","Am I suffering from anxiety?" ,"Do I have anxiety?", "Define anxiety", "Can you explain anxiety?"],
+        "responses": ["Anxiety is a normal response to stress or a perceived threat. It involves feelings of worry, nervousness, or fear that can be mild or severe and may interfere with daily activities.", "Anxiety is a natural reaction to stress characterized by feelings of apprehension, unease, or dread. It can manifest as physical symptoms such as rapid heartbeat, sweating, trembling, or difficulty breathing.", "Anxiety is a complex emotional state that can range from mild nervousness to debilitating fear. It often involves excessive worry or anticipation of future events and can impact various aspects of life, including work, relationships, and overall well-being."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "depression_definition",
+        "patterns": ["What is depression?", "Define depression", "Can you explain depression?"],
+        "responses": ["Depression is a mental health disorder characterized by persistent feelings of sadness, hopelessness, or emptiness. It can affect how you think, feel, and handle daily activities and may lead to physical symptoms such as changes in appetite or sleep patterns.", "Depression is a mood disorder that causes persistent feelings of sadness, worthlessness, or loss of interest in activities. It can impair functioning and quality of life and may be accompanied by physical symptoms like fatigue, aches, or changes in weight.", "Depression is a serious mental health condition that can impact mood, behavior, and physical health. It often involves feelings of despair, low self-esteem, and difficulty experiencing pleasure in activities once enjoyed."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "stress_definition",
+        "patterns": ["What is stress?", "Define stress", "Can you explain stress?"],
+        "responses": ["Stress is the body's natural response to a perceived threat or demand, triggering the 'fight or flight' response. It can be caused by various factors such as work pressure, financial concerns, or life changes and can have both physical and psychological effects.", "Stress is a physiological and psychological response to challenges or demands that exceed an individual's coping abilities. It can manifest as feelings of tension, irritability, or overwhelm and may lead to physical symptoms like headaches, stomachaches, or sleep disturbances.", "Stress is a normal part of life that can arise from external pressures or internal demands. While some stress can be beneficial in motivating action, chronic or excessive stress can negatively impact health and well-being."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "ptsd_definition",
+        "patterns": ["What is PTSD?", "Define PTSD", "Can you explain PTSD?"],
+        "responses": ["Post-Traumatic Stress Disorder (PTSD) is a mental health condition that can develop after experiencing or witnessing a traumatic event. Symptoms may include intrusive memories, nightmares, flashbacks, hypervigilance, avoidance of reminders, negative changes in mood or cognition, and alterations in arousal and reactivity.", "PTSD is a psychiatric disorder that can occur following exposure to a traumatic event such as combat, assault, natural disaster, or accident. It can lead to significant distress and impairment in daily functioning and may require treatment such as therapy or medication.", "PTSD is a complex disorder that can affect individuals who have experienced or witnessed a traumatic event. It can result in symptoms such as re-experiencing the trauma, avoidance of reminders, negative changes in thoughts or mood, and heightened arousal or reactivity."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "ocd_definition",
+        "patterns": ["What is OCD?", "Define OCD", "Can you explain OCD?"],
+        "responses": ["Obsessive-Compulsive Disorder (OCD) is a mental health condition characterized by intrusive, unwanted thoughts (obsessions) and repetitive behaviors or mental acts (compulsions) performed to alleviate anxiety or prevent a feared outcome. OCD can significantly interfere with daily functioning and quality of life.", "OCD is a chronic psychiatric disorder characterized by obsessions, which are intrusive and distressing thoughts, and compulsions, which are repetitive behaviors or mental rituals performed to reduce anxiety or prevent perceived harm. OCD often involves irrational fears or worries and can be time-consuming and distressing.", "Obsessive-Compulsive Disorder (OCD) is a mental illness characterized by persistent, unwanted thoughts or images (obsessions) and repetitive behaviors or mental acts (compulsions) performed in response to these obsessions. OCD can cause significant distress and impairment in social, occupational, or other areas of functioning."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "adhd_definition",
+        "patterns": ["What is ADHD?", "Define ADHD", "Can you explain ADHD?"],
+        "responses": ["Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder characterized by symptoms of inattention, impulsivity, and hyperactivity that interfere with functioning or development. ADHD may manifest differently in children, adolescents, and adults and can impact academic, social, and occupational performance.", "ADHD is a common neurodevelopmental disorder marked by persistent patterns of inattention, impulsivity, and/or hyperactivity that can impair functioning across various domains of life. ADHD symptoms often emerge in childhood and may persist into adolescence and adulthood.", "Attention-Deficit/Hyperactivity Disorder (ADHD) is a neurodevelopmental condition characterized by difficulties with attention, impulse control, and hyperactivity. ADHD can affect individuals of all ages and may present challenges in academic, occupational, and social settings."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "coping_strategies",
+        "patterns": ["What are some coping strategies for managing mental health challenges?", "Effective coping techniques", "Strategies for dealing with mental health issues"],
+        "responses": ["Some effective coping strategies include practicing mindfulness and relaxation techniques, engaging in physical activity, maintaining a healthy lifestyle, seeking social support, setting realistic goals, and seeking professional help when needed.", "Coping strategies for managing mental health challenges may include developing a support network, engaging in hobbies and activities that bring joy, journaling, setting boundaries, and practicing self-compassion and acceptance.", "When dealing with mental health issues, it can be helpful to develop coping strategies such as challenging negative thoughts, finding healthy outlets for emotions, prioritizing self-care, and seeking guidance from mental health professionals."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "symptoms_inquiry",
+        "patterns": ["What are the symptoms?", "Can you tell me the symptoms?", "What are common symptoms?"],
+        "responses": ["Certainly! Mental health symptoms can vary depending on the condition. Here are some common categories of symptoms:",
+                      "Of course! Mental health symptoms can manifest in various ways. Here are some common categories of symptoms:",
+                      "Sure! Mental health symptoms may present differently for each individual and condition. Here are some common categories of symptoms:"],
+        "context": ["", ""]
+      },
+      {
+        "tag": "anxiety_symptoms",
+        "patterns": ["Anxiety symptoms", "Symptoms of anxiety", "What are the signs of anxiety?"],
+        "responses": ["Some common symptoms of anxiety include excessive worrying, restlessness, irritability, muscle tension, difficulty concentrating, and sleep disturbances.",
+                      "Signs of anxiety may include feelings of nervousness or apprehension, racing thoughts, rapid heartbeat, sweating, trembling, and gastrointestinal issues.",
+                      "Anxiety symptoms can include persistent fear or worry, avoidance of triggers, panic attacks, difficulty relaxing, and feeling on edge or tense."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "depression_symptoms",
+        "patterns": ["Depression symptoms", "Symptoms of depression", "What are the signs of depression?"],
+        "responses": ["Common symptoms of depression include persistent sadness, feelings of hopelessness or worthlessness, loss of interest or pleasure in activities, changes in appetite or weight, fatigue, and difficulty concentrating.",
+                      "Signs of depression may include changes in sleep patterns, feelings of guilt or worthlessness, decreased energy or motivation, irritability, and thoughts of death or suicide.",
+                      "Depression symptoms can manifest as persistent low mood, loss of interest in activities, changes in appetite or weight, sleep disturbances, and difficulty with concentration or decision-making."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "ptsd_symptoms",
+        "patterns": ["PTSD symptoms", "Symptoms of PTSD", "What are the signs of PTSD?"],
+        "responses": ["Symptoms of PTSD may include intrusive memories of the traumatic event, flashbacks, nightmares, hypervigilance, avoidance of reminders of the trauma, negative changes in mood or cognition, and alterations in arousal and reactivity.",
+                      "Signs of PTSD can include emotional numbness, detachment from others, difficulty trusting others, exaggerated startle response, outbursts of anger or irritability, and self-destructive behavior.",
+                      "PTSD symptoms can manifest as re-experiencing the trauma through flashbacks or nightmares, avoiding situations that remind of the trauma, feeling emotionally numb or detached, and having difficulty sleeping or concentrating."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "ocd_symptoms",
+        "patterns": ["OCD symptoms", "Symptoms of OCD", "What are the signs of OCD?"],
+        "responses": ["Common symptoms of OCD include obsessions, which are intrusive and unwanted thoughts, images, or urges, and compulsions, which are repetitive behaviors or mental acts performed to alleviate anxiety or prevent a feared outcome.",
+                      "Signs of OCD may include excessive hand washing, checking, counting, or arranging objects in a specific way, fear of contamination, intrusive thoughts of harm or aggression, and a strong need for symmetry or order.",
+                      "OCD symptoms can manifest as persistent and distressing thoughts or images, ritualistic behaviors or mental acts, perfectionism, indecision, and avoidance of triggers that provoke anxiety."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "adhd_symptoms",
+        "patterns": ["ADHD symptoms", "Symptoms of ADHD", "What are the signs of ADHD?"],
+        "responses": ["Symptoms of ADHD may include inattention, which can manifest as difficulty focusing or sustaining attention, being easily distracted, forgetfulness, and poor organizational skills.",
+                      "Signs of ADHD can include impulsivity, which may lead to interrupting others, difficulty waiting turns, acting without considering consequences, and restless behavior like fidgeting or tapping.",
+                      "ADHD symptoms may present as hyperactivity, which can include excessive talking, constant motion, difficulty sitting still, and an inability to engage in quiet activities."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "anxiety_management",
+        "patterns": ["How can I manage anxiety?","How can I treat anxiety?", "Tips for coping with anxiety", "Anxiety management techniques"],
+        "responses": ["To manage anxiety, consider techniques such as deep breathing exercises, progressive muscle relaxation, mindfulness meditation, physical activity, and seeking support from a therapist or support group.", "Coping with anxiety may involve identifying triggers, challenging negative thoughts, practicing self-care, setting boundaries, and developing healthy coping mechanisms.", "Managing anxiety often involves a combination of strategies such as cognitive-behavioral therapy (CBT), relaxation techniques, stress management skills, and medication under the guidance of a healthcare professional."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "depression_support",
+        "patterns": ["How can I get support for depression?", "Support resources for depression", "Help for managing depression"],
+        "responses": ["Seeking support for depression may involve reaching out to a therapist, counselor, or psychiatrist for professional help, connecting with loved ones for emotional support, participating in support groups, and engaging in self-care activities.", "Managing depression may include therapy (such as cognitive-behavioral therapy), medication, lifestyle changes (like exercise and nutrition), and building a strong support network.", "Getting support for depression can involve talking to a trusted friend or family member, seeking help from a mental health professional, exploring treatment options, and taking steps to prioritize self-care and well-being."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "stress_reduction",
+        "patterns": ["How can I reduce stress?", "Stress management techniques", "Ways to cope with stress"],
+        "responses": ["To reduce stress, consider practices such as deep breathing exercises, mindfulness meditation, physical activity, setting realistic goals, maintaining a healthy lifestyle, and seeking support from friends, family, or a therapist.", "Coping with stress may involve time management, boundary-setting, prioritizing tasks, practicing relaxation techniques, and engaging in activities that bring joy and relaxation.", "Managing stress involves identifying stressors, developing coping strategies, setting boundaries, seeking social support, and practicing self-care activities like exercise, meditation, and hobbies."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "ptsd_support",
+        "patterns": ["Where can I find support for PTSD?", "PTSD treatment options", "Help for managing PTSD symptoms"],
+        "responses": ["Support for PTSD may include therapy (such as cognitive processing therapy or eye movement desensitization and reprocessing), medication, support groups, and self-care practices like exercise, relaxation techniques, and maintaining a healthy lifestyle.", "Managing PTSD symptoms may involve learning coping skills to manage triggers, processing traumatic memories in therapy, building a strong support network, and practicing self-compassion and self-care.", "Getting support for PTSD involves reaching out to mental health professionals who specialize in trauma treatment, exploring therapy options, connecting with support groups, and prioritizing self-care and well-being."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "ocd_management",
+        "patterns": ["How can I manage OCD symptoms?", "OCD treatment options", "Coping strategies for OCD"],
+        "responses": ["Managing OCD symptoms may involve therapy (such as exposure and response prevention therapy or cognitive-behavioral therapy), medication, support groups, and self-help techniques like mindfulness and relaxation exercises.", "Coping with OCD involves learning to challenge and modify compulsive behaviors, developing healthy coping mechanisms, and seeking support from mental health professionals and loved ones.", "Treatment for OCD may include therapy to learn strategies for managing intrusive thoughts and compulsive behaviors, medication to reduce symptoms, and self-help techniques to promote relaxation and reduce anxiety."],
+        "context": ["", ""]
+      },
+      {
+        "tag": "adhd_support",
+        "patterns": ["Where can I find support for ADHD?", "ADHD management strategies", "Help for managing ADHD symptoms"],
+        "responses": ["Support for ADHD may include therapy (such as cognitive-behavioral therapy or coaching), medication, lifestyle changes (such as organization strategies and time management techniques), and accommodations at school or work.", "Managing ADHD symptoms involves developing routines, using organizational tools, practicing mindfulness, getting regular exercise, seeking therapy, and possibly trying medication under the guidance of a healthcare professional.", "Getting support for ADHD may involve working with a healthcare provider to develop a treatment plan, seeking therapy or coaching to learn coping skills, and connecting with support groups or advocacy organizations for information and encouragement."],
+        "context": ["", ""]
+      }
+
+]
+}
